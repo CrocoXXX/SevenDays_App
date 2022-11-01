@@ -35,8 +35,9 @@ class _SplashV1State extends State<SplashV1> {
           Container(
             decoration: const BoxDecoration(
               image: DecorationImage(
-                  image: AssetImage('assets/background.png'),
-                  fit: BoxFit.cover),
+                image: AssetImage('assets/background.png'),
+                fit: BoxFit.cover,
+              ),
             ),
           ),
           Padding(
