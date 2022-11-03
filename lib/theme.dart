@@ -35,3 +35,38 @@ TextStyle buttonStyle = GoogleFonts.openSans(
   fontSize: 18,
   fontWeight: FontWeight.w600,
 );
+
+// Rating Screen TextStyle
+TextStyle pizzaStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 24,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle priceStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 20,
+);
+
+TextStyle questionStyle = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 18,
+  fontWeight: FontWeight.w500,
+);
+
+TextStyle mealStyle = GoogleFonts.poppins(
+  color: const Color(0xff121622),
+  fontSize: 20,
+  fontWeight: FontWeight.w600,
+);
+
+TextStyle rateStyle = GoogleFonts.poppins(
+  color: const Color(0xff808EAB),
+  fontSize: 16,
+);
+
+TextStyle button1Style = GoogleFonts.poppins(
+  color: whiteColor,
+  fontSize: 16,
+  fontWeight: FontWeight.w600,
+);
