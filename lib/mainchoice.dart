@@ -35,7 +35,7 @@ class MainChoice extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    'Version 1',
+                    'Version 1 (Light Screen)',
                     style: GoogleFonts.poppins(
                       color: whiteColor,
                       fontSize: 20,
@@ -63,7 +63,7 @@ class MainChoice extends StatelessWidget {
                     ),
                   ),
                   child: Text(
-                    'Version 2',
+                    'Version 2 (Dark Screen)',
                     style: GoogleFonts.poppins(
                       color: whiteColor,
                       fontSize: 20,
