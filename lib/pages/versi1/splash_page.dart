@@ -48,7 +48,6 @@ class _SplashV1State extends State<SplashV1> {
                 Image.asset(
                   'assets/home.png',
                   width: 51,
-                  height: 51,
                 ),
                 const SizedBox(width: 14),
                 Text(
@@ -56,7 +55,7 @@ class _SplashV1State extends State<SplashV1> {
                   style: GoogleFonts.montserrat(
                     color: blackColor,
                     fontSize: 32,
-                    fontWeight: FontWeight.w600,
+                    fontWeight: FontWeight.w700,
                   ),
                 ),
               ],

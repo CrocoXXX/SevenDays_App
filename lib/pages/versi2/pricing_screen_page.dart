@@ -63,13 +63,14 @@ class PricingScreenV2 extends StatelessWidget {
     }
 
     return Scaffold(
-        backgroundColor: const Color(0xffFBD7FF),
-        body: Column(
-          children: [
-            header(),
-            const SizedBox(height: 50),
-            option(),
-          ],
-        ));
+      backgroundColor: const Color(0xffFBD7FF),
+      body: Column(
+        children: [
+          header(),
+          const SizedBox(height: 50),
+          option(),
+        ],
+      ),
+    );
   }
 }

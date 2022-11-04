@@ -59,6 +59,8 @@ class GetStartedV1 extends StatelessWidget {
                         Container(
                           width: 295,
                           height: 55,
+                          color: const Color(
+                              0xffAFEA0D), // Dipakai apabila tidak ada border radius
                           child: TextButton(
                             onPressed: () {
                               Navigator.push(
@@ -68,15 +70,16 @@ class GetStartedV1 extends StatelessWidget {
                                 ),
                               );
                             },
-                            style: TextButton.styleFrom(
-                              backgroundColor: const Color(0xffAFEA0D),
-                            ),
+                            // style: TextButton.styleFrom(
+                            //   backgroundColor: const Color(0xffAFEA0D),
+                            // ),
                             child: Text(
                               'Shape My Body',
                               style: GoogleFonts.lato(
-                                  color: blackColor,
-                                  fontSize: 18,
-                                  fontWeight: FontWeight.w600),
+                                color: blackColor,
+                                fontSize: 18,
+                                fontWeight: FontWeight.w600,
+                              ),
                             ),
                           ),
                         ),
@@ -86,10 +89,8 @@ class GetStartedV1 extends StatelessWidget {
                           style: GoogleFonts.poppins(
                             color: const Color(0xff757575),
                             fontSize: 16,
-                            fontWeight: FontWeight.w400,
                           ),
                         ),
-                        // const SizedBox(height: 20),
                       ],
                     ),
                   ),

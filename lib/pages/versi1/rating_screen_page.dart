@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:sevendays_app/pages/versi1/pricing_screen_page.dart';
 import 'package:sevendays_app/theme.dart';
 
@@ -8,6 +9,7 @@ class RatingScreenV1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 28),
@@ -71,6 +73,15 @@ class RatingScreenV1 extends StatelessWidget {
                 decoration: BoxDecoration(
                   color: const Color(0xffF8F8F8),
                   borderRadius: BorderRadius.circular(17),
+                ),
+                child: Padding(
+                  padding: const EdgeInsets.only(top: 16, left: 16),
+                  child: Text(
+                    'Your Message ....',
+                    style: GoogleFonts.poppins(
+                      color: const Color(0xff808EAB),
+                    ),
+                  ),
                 ),
               ),
               const SizedBox(height: 30),
